@@ -42,12 +42,12 @@ public final class ObdConfig {
 
         // Control
         cmds.add(new ModuleVoltageCommand());
-        cmds.add(new EquivalentRatioCommand());
-        cmds.add(new DistanceMILOnCommand());
-        cmds.add(new DtcNumberCommand());
-        cmds.add(new TimingAdvanceCommand());
-        cmds.add(new TroubleCodesCommand());
-        cmds.add(new VinCommand());
+//        cmds.add(new EquivalentRatioCommand());
+//        cmds.add(new DistanceMILOnCommand());
+//        cmds.add(new DtcNumberCommand());
+//        cmds.add(new TimingAdvanceCommand());
+//        cmds.add(new TroubleCodesCommand());
+//        cmds.add(new VinCommand());
 
         // Engine
         cmds.add(new LoadCommand());
@@ -64,19 +64,19 @@ public final class ObdConfig {
         cmds.add(new FuelLevelCommand());
         // cmds.add(new FuelEconomyMAPObdCommand());
         // cmds.add(new FuelEconomyCommandedMAPObdCommand());
-        cmds.add(new FuelTrimCommand(FuelTrim.LONG_TERM_BANK_1));
-        cmds.add(new FuelTrimCommand(FuelTrim.LONG_TERM_BANK_2));
-        cmds.add(new FuelTrimCommand(FuelTrim.SHORT_TERM_BANK_1));
-        cmds.add(new FuelTrimCommand(FuelTrim.SHORT_TERM_BANK_2));
-        cmds.add(new AirFuelRatioCommand());
-        cmds.add(new WidebandAirFuelRatioCommand());
+//        cmds.add(new FuelTrimCommand(FuelTrim.LONG_TERM_BANK_1));
+//        cmds.add(new FuelTrimCommand(FuelTrim.LONG_TERM_BANK_2));
+//        cmds.add(new FuelTrimCommand(FuelTrim.SHORT_TERM_BANK_1));
+//        cmds.add(new FuelTrimCommand(FuelTrim.SHORT_TERM_BANK_2));
+//        cmds.add(new AirFuelRatioCommand());
+//        cmds.add(new WidebandAirFuelRatioCommand());
         cmds.add(new OilTempCommand());
 
         // Pressure
-        cmds.add(new BarometricPressureCommand());
+//        cmds.add(new BarometricPressureCommand());
         cmds.add(new FuelPressureCommand());
-        cmds.add(new FuelRailPressureCommand());
-        cmds.add(new IntakeManifoldPressureCommand());
+//        cmds.add(new FuelRailPressureCommand());
+//        cmds.add(new IntakeManifoldPressureCommand());
 
         // Temperature
         cmds.add(new AirIntakeTemperatureCommand());
