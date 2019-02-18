@@ -1,9 +1,9 @@
 {
-  "name": "@knax/react-native-obd2",
-  "version": "0.0.3",
+  "name": "react-native-obd2-core",
+  "version": "0.0.4",
   "description": "OBDII data transferring for react-native Android.",
   "license": "MIT",
-  "author": "Hasta Ragil",
+  "author": "Hasta Ragil | Sahil",
   "main": "index.js",
   "keywords": [
     "react-native",
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/knax/react-native-obd2"
+    "url": "https://github.com/SahilRS200/react-native-obd2.git"
   },
   "dependencies": {
   },
